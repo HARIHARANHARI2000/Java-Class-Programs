@@ -15,14 +15,17 @@ public class Pattern {
 			}
 			System.out.println();
 		}
-	}
 
-		//for(int i=2;i<=n;i++) {
-			//for(int j=n;j>=i;j--) {
-				//System.out.print("*");
-			//System.out.println();
-		//}
-		//s.close();
+		for(int i=2;i<=n;i++) {
+			int n;
+			for(int j=n;j>=i;j--) {
+				System.out.print("*");
+			System.out.println();
+		}
+	
+		s.close();
+		}
+	}
 		
 		
 		

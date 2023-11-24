@@ -25,4 +25,15 @@ public class TreeTraversal {
 			preOrder(currentRoot.right);
 		}
 	}
+	public void postOrder() {
+		postOrder(root);
+}
+	public void postOrder(Node<Integer>currentRoot) {
+		if(currentRoot !=null) {
+			postOrder(currentRoot.left);
+			System.out.println(currentRoot.data);
+			postOrder(currentRoot.right);
+		}
+	}
+
 }

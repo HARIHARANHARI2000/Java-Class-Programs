@@ -13,11 +13,17 @@ public class Node<A> {
 	root.left=new Node<Integer>(20);
 	root.right=new Node<Integer>(30);
 	root.left.left=new Node<Integer>(40);
-	root.right.right=new Node<Integer>(50);
-	root.right.left=new Node<Integer>(60);
-	root.left.left=new Node<Integer>(70);
+	root.left.left.left=new Node<Integer>(40);
+	root.left.right=new Node<Integer>(40);
+	root.left.left.right=new Node<Integer>(40);
+	root.left.right.left=new Node<Integer>(40);
+	root.left.right.right=new Node<Integer>(50);
+	root.right.left.left=new Node<Integer>(60);
+	root.right.left.right=new Node<Integer>(70);
 	TreeTraversal traversal=new TreeTraversal(root);
 	traversal.inOrder();
+	System.out.println("---------------");
+	traversal.preOrder();
 	}
 
 }
