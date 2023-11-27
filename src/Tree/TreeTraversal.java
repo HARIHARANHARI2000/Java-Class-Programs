@@ -20,8 +20,8 @@ public class TreeTraversal {
 }
 	public void preOrder(Node<Integer>currentRoot) {
 		if(currentRoot !=null) {
-			preOrder(currentRoot.left);
 			System.out.println(currentRoot.data);
+			preOrder(currentRoot.left);
 			preOrder(currentRoot.right);
 		}
 	}
@@ -31,8 +31,9 @@ public class TreeTraversal {
 	public void postOrder(Node<Integer>currentRoot) {
 		if(currentRoot !=null) {
 			postOrder(currentRoot.left);
+			preOrder(currentRoot.right);
 			System.out.println(currentRoot.data);
-			postOrder(currentRoot.right);
+			
 		}
 	}
 
