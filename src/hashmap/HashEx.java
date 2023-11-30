@@ -8,10 +8,10 @@ public class HashEx {
 		
 		//HashMap<String , String>hashMap=new HashMap<String,String>();
 		HashMap<String,String>hashmap=new HashMap<String,String>();
-		/*hashmap.put("Name","Hari");
+		hashmap.put("Name","Hari");
 		hashmap.put("Age","23");
 		hashmap.put("Gender","Male");
-		hashmap.put("etc",".....");*/
+		hashmap.put("etc",".....");
 		
 	
 	/*HashMap<Integer,String>hashMap2=new HashMap<Integer,String>();

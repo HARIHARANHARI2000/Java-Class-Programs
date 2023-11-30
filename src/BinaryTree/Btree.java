@@ -26,10 +26,10 @@ public class Btree {
 			
 			//n.right.right=new Node(1);
 		
-			Btree root = new Btree(n);
-			root.inorder();
-			//System.out.println("-------------------------");
-		root.preorder();
+			BinaryTraversal traversal = new BinaryTraversal(n);
+			traversal.inorder();
+			System.out.println("-------------------------");
+		    traversal.preorder();
 			//System.out.println();
 			//System.out.println();
 
